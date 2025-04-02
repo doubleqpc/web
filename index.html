@@ -11,7 +11,10 @@
             <base href="http://127.0.0.1:5500">
             
         </head>
-        <body style="background-color: black;">
+        <script type="text/javascript" src="js/jstest.js"></script>
+        <script type="text/javascript" defer src="js/search.js"></script>
+        <script type="text/javascript" defer src="js/popup.js"></script>
+        <body style="background-color: black;" onload="pop_up();">
             <div class="container-fluid" style="display: flex; justify-content: center;"><img src="image/logo_steam.svg" width"200" height="60">
                 <h3 style="font-size: 24px; font-weight: bold; font-style: italic; color: white;">
                     <h3 style="font-size: 24px; font-weight: bold; font-style: italic; color: white;">
@@ -50,9 +53,9 @@
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                           </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="키워드 입력">
-                          <button class="btn btn-outline-success" type="submit">검색하기</button>
+                        <form class="d-flex" role="search" onsubmit="return googleSearch();">
+                          <input class="form-control me-2" id="search_input" name="q" type="search" placeholder="키워드 입력" aria-label="Search">
+                          <button class="btn btn-outline-success" id="search_btn" type="submit">검색하기</button>
                         </form>
                       </div>
                     </div>
