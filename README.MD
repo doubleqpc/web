@@ -7,3 +7,4 @@ This project is a starting point for a Web application.
 ## 3주차 수업 부트스트랩 적용 완료! (문제 제외)
 ## 4주차 수업 부트스트랩 함
 ## 5주차 수업 검색창, 팝업
+## 6주차 수업 시계 팝업, 이미지 호버
