@@ -25,9 +25,8 @@ function show_clock()
 }
 
 function over(obj) {
-    obj.src="logo_steam.svg";
+    obj.src="image/steam2.jpg";
     }
     function out(obj) {
-    obj.src="steam2.jpg";
+    obj.src="image/logo_steam.svg";
     }
-    
