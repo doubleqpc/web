@@ -9,3 +9,5 @@ This project is a starting point for a Web application.
 ## 5주차 수업 검색창, 팝업
 ## 6주차 수업 시계 팝업, 이미지 호버
 ## 7주차 수업 로그인창
+## 9주차 수업 쿠키
+## 10주차 수업 쿠키, 세션
