@@ -11,3 +11,5 @@ This project is a starting point for a Web application.
 ## 7주차 수업 로그인창
 ## 9주차 수업 쿠키
 ## 10주차 수업 쿠키, 세션
+## 11주차 암호화, 보안토큰
+## 12주차 수업 모듈화, 회원가입
